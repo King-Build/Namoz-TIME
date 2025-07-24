@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #edd2cb, #f3f4f6);
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 5px 0;
+}
+
+.select {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #543c52;
+  color: white;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+}
+
+.select h2,
+.select h3 {
+  margin: 0 10px;
+  font-weight: normal;
+}
+
+.select select {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  background-color: #edd2cb;
+  color: #543c52;
+}
+
+.date {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 20px 0;
+  font-size: 20px;
+  color: #4a5568;
+}
+
+.white-text h3 {
+  color: white;
+}
+
+.times {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.times div {
+  background: linear-gradient(to bottom right, #f55951, #543c52);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  color: white;
+  transition: transform 0.2s ease;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.times div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.current {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 30px;
+  margin-top: 30px;
+  color: #543c52;
+}
+
+.active {
+  background: linear-gradient(to bottom right, #3a0ca3, #7209b7) !important;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
