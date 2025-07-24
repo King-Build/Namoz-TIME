@@ -1,12 +1,25 @@
-# React + Vite
+# 🕌 Namoz Vaqtlari App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🔎 Overview  
+A simple and interactive **Prayer Times App** built with **React** and **CSS**.  
+This project fetches daily prayer times from an API based on regions and displays them using beautifully styled cards.  
+It also highlights the current or upcoming prayer with a distinct color for better visual indication.
 
-Currently, two official plugins are available:
+## 🛠 Technologies Used  
+- React.js + Vite  
+- CSS3  
+- JavaScript (Fetch API, Time Logic)  
+- React Icons & Axios
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ Features  
+- Fetches prayer times for multiple regions via API  
+- Detects and highlights the **nearest upcoming prayer** based on current time  
+- Fully **responsive design** for mobile, tablet, and desktop  
+- Clean prayer time **cards** with icons and color-coded styling  
 
-## Expanding the ESLint configuration
+## 📸 Screenshot  
+[![Screenshot](https://i.postimg.cc/mkbXHwdR/Screenshot-2025-07-24-at-09-37-04.png)](https://postimg.cc/S2vf0WFt)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🌐 Live Demo  
+👉 <a href="https://time-of-namoz.netlify.app" target="_blank">View Live</a>  
+
