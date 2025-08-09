@@ -21,5 +21,5 @@ It also highlights the current or upcoming prayer with a distinct color for bett
 [![Screenshot](https://i.postimg.cc/mkbXHwdR/Screenshot-2025-07-24-at-09-37-04.png)](https://postimg.cc/S2vf0WFt)
 
 ## 🌐 Live Demo  
-👉 <a href="https://time-of-namoz.netlify.app" target="_blank">View Live</a>  
+👉 <a href="https://namoz-vaqtlarijsx.netlify.app" target="_blank">View Live</a>  
 
